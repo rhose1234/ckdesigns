@@ -233,7 +233,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 0 5px;
 }
 
-a#btn:hover img {
+a.btn:hover img {
   width: 15px;
   opacity: 1;
   transform: translateX(50px);
