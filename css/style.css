@@ -1,10 +1,6 @@
 @charset "UTF-8";
 @import url("../css/bootstrap.min.css");
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;0,800;1,300;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,500&display=swap');
 *,
 *::before,
 *::after {
@@ -12,8 +8,6 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   transition: 0.5s ease-in;
-  font-family: 'Rubik', sans-serif;
-
 }
 
 
@@ -25,41 +19,47 @@
 
 
 body {
-
+  font-family: 'Montserrat', sans-serif;
 }
 h1, h2, h3,h4, h5, h6 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+font-weight: 700;
 }
 p{
-  font-family: 'Sora', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  line-height: 30px !important;
+  font-weight: 400;
+  
+}
+span{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
 }
 .navbar-brand img{
-  width: 5rem !important;
+  width: 4rem !important;
 }
 .navbar {
-  background-color: #fdfeff;
-  color: #000;
+  color: #ffffff !important;
   height: 12vh;
   
 }
 
 .nav-item{
-  color: #000 !important;
+  color: #ffffff !important;
 }
 
 
 .offcanvas {
-  background-color: #fdfeff;
+  background-color: #1844A1;
 }
 
 .dropdown-menu {
-  background-color: #000000 !important;
+  background-color: #1844A1 !important;
   border: none !important;
 }
 span .navbar-toggler-icon {
-  background-color: #000000 !important;
+  background-color: #ffffff !important;
 }
 .navbar-toggler {
   width: 20px;
@@ -71,7 +71,7 @@ span .navbar-toggler-icon {
 .toggler-icon {
   width: 100%;
   height: 2px;
-  background-color: #000000;
+  background-color: #ffffff;
   display: block;
   position: absolute;
   border-radius: 1px;
@@ -98,7 +98,7 @@ span .navbar-toggler-icon {
 }
 /*state when navbar is collapsed*/
 .offcanvas-header .close {
-  color: #7ec3f7  !important;
+  color: #C1D2E7  !important;
   font-size: 30px !important;
 }
 .nav-item {
@@ -112,14 +112,7 @@ span .navbar-toggler-icon {
   line-height: 24px;
   color: #fff;
 }
-.nav-link .ticket{
-  border-radius: 50px!important;
-  height: 80px;
-  border: 2px solid 
-}
-.nav-link:hover{
-  color: #1844A1 !important;
-}
+
 #hero{
   font-family: 'Rubik', sans-serif !important;
   padding: 20px;
@@ -197,6 +190,9 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 #projects h1{
   
 }
+#projects img{
+  height: 100% !important;
+}
 .card-block {
   font-size: 1em;
   position: relative;
@@ -224,23 +220,98 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background-color: #1844A1 !important;
   
 }
-#arrow-hover {
-  width: 15px;
-  height: 10px;
-  position: absolute;
-  transform: translateX(60px);
-  opacity: 0;
-  -webkit-transition: all .25s cubic-bezier(.14, .59, 1, 1.01);
-  transition: all .15s cubic-bezier(.14, .59, 1, 1.01);
-  margin: 0;
-  padding: 0 5px;
+
+ul {
+  list-style-type: none;
 }
 
-a.btn:hover img {
-  width: 15px;
-  opacity: 1;
-  transform: translateX(50px);
+a,
+a:hover {
+  text-decoration: none;
 }
+#testimonials{
+  background-color: #F5F5F5;
+}
+.testimonials .slide img{
+
+  width: 50px;
+  margin-right: 20px;
+   
+}
+.testimonials .card1 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 380px;
+  width: 100%;
+  /* position:relative;
+  top: -30%;
+ right: 20px; */
+
+}
+.bi-quote{ 
+  font-size: 70px;
+  text-align: start !important;
+  color: #C1D2E7;
+
+}
+.card .mobilevieshow {
+  display: block;
+}
+
+.card .mobileviewhide {
+  display: none;
+}
+
+
+.connect-container{
+  border-radius: 15px;
+  background-color: #C1D2E7;
+  color: #000000;
+  height: 70vh;
+  width: 100%;
+  align-items: center;
+  padding: 80px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.connect-container button {
+  background-color: #1844A1; 
+  color: white; 
+  padding: 15px 30px; 
+  border: none; 
+  border-radius: 15px;
+  font-size: 18px; 
+  cursor: pointer; 
+  box-shadow: 0 4px 8px rgba(24, 68, 161, 0.2);
+  transition: background-color 0.3s ease-in-out; 
+}
+
+.connect-container button:hover {
+  background-color: #0F2B7B; 
+  transform: scale(1.1); /
+}
+
+.custom-button:active {
+  background-color: #0A1C5B;
+}
+
+.brand-bg-color {
+  background-color: #1844A1; 
+}
+
+.footer .row {
+  margin-top: 30px;
+}
+.footer img{
+  width: 100px;
+  
+}
+
+
+
+
 
 
 
@@ -251,7 +322,7 @@ a.btn:hover img {
 @media(min-width: 320px) and (max-width: 480px) {
   /* STYLES GO HERE */
 .navbar {
-    height: 8vh; 
+    height: 12vh; 
 }
 #home img{
   transform: none;
