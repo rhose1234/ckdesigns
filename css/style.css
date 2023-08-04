@@ -276,7 +276,7 @@ a:hover {
 
 
 
-.connect-container button {
+.connect-container a {
   background-color: #1844A1; 
   color: white; 
   padding: 15px 30px; 
@@ -288,7 +288,7 @@ a:hover {
   transition: background-color 0.3s ease-in-out; 
 }
 
-.connect-container button:hover {
+.connect-container a:hover {
   background-color: #0F2B7B; 
   transform: scale(1.1); /
 }
@@ -308,7 +308,10 @@ a:hover {
   width: 100px;
   
 }
-
+.bi-check-circle{
+  color: #1844A1 !important;
+  font-size: 20px !important;
+}
 
 
 
