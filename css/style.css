@@ -291,6 +291,7 @@ a:hover {
 .connect-container a:hover {
   background-color: #0F2B7B; 
   transform: scale(1.1); /
+  color: #fff;
 }
 
 .custom-button:active {
