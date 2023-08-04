@@ -22,13 +22,13 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 h1, h2, h3,h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
-font-weight: 700;
+  font-weight: 800;
 }
 p{
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  color: #000000 !important;
+
   
 }
 span{
@@ -116,7 +116,7 @@ span .navbar-toggler-icon {
 #hero{
   font-family: 'Rubik', sans-serif !important;
   padding: 20px;
-  height: 100vh !important;
+  
 }
 
 #hero h4{
@@ -220,6 +220,7 @@ position: relative;
 }
 .btn {
   background-color: #1844A1 !important;
+  border: none !important;
   
 }
 
@@ -272,14 +273,13 @@ a:hover {
   height: 70vh;
   width: 100%;
   align-items: center;
-  padding: 80px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .connect-container a {
   background-color: #1844A1; 
   color: white; 
   padding: 15px 30px; 
-  border: none; 
+  border: none !important; 
   border-radius: 15px;
   font-size: 18px; 
   cursor: pointer; 
@@ -290,7 +290,7 @@ a:hover {
 .connect-container a:hover {
   background-color: #0F2B7B; 
   transform: scale(1.1); /
-  color: #fff;
+  color: #ffffff !important ;
 }
 
 .custom-button:active {
@@ -312,7 +312,9 @@ a:hover {
   color: #1844A1 !important;
   font-size: 20px !important;
 }
-
+.footer p{
+  color: #ffffff !important;
+}
 
 
 
@@ -325,7 +327,7 @@ a:hover {
 @media(min-width: 320px) and (max-width: 480px) {
   /* STYLES GO HERE */
 .navbar {
-    height: 14vh; 
+    height: 15vh; 
 }
 #home img{
   transform: none;
@@ -337,7 +339,7 @@ a:hover {
 
   
   .navbar {
-    height: 14vh;
+    height: 15vh;
     
   }
 }
