@@ -25,21 +25,24 @@ body {
 h1, h2, h3,h4, h5, h6 {
   
 }
+
 p{
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  color: #000000 !important;
-
-  
+  line-height: 30px !important;
+  color: #000000 !important; 
 }
+
 span{
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 600;
 }
+
 .navbar-brand img{
   width: 4rem !important;
 }
+
 .navbar {
   color: #ffffff !important;
   height: 12vh;
@@ -49,7 +52,6 @@ span{
 .nav-item{
   color: #ffffff !important;
 }
-
 
 .offcanvas {
   background-color: #1844A1;
@@ -89,23 +91,28 @@ span .navbar-toggler-icon {
   margin-top: 7px;
   transform: rotate(0deg);
 }
+
 .navbar-toggler .middle-bar {
   margin-top: 13.5px;
   transform: rotate(0deg);
 }
+
 .navbar-toggler .bottom-bar {
   margin-top: 0px;
   transform: rotate(0deg);
 }
+
 /*state when navbar is collapsed*/
 .offcanvas-header .close {
   color: #C1D2E7  !important;
   font-size: 30px !important;
 }
+
 .nav-item {
   margin-left: 20px !important;
   
 }
+
 .nav-link {
   font-style: normal;
   font-weight: 500;
@@ -124,15 +131,16 @@ span .navbar-toggler-icon {
   color: #000000 !important;
   font-weight: 500 !important;
 }
+
 #hero h4 span{
   color: #ffffff;
   padding: 10px;
   background-color: #1844A1 !important;
   border-radius: 15px;
 }
-#hero p{
+/* #hero p{
   line-height: 40px !important;
-}
+} */
 #hero div.content{
 position: relative;
 
@@ -142,7 +150,6 @@ position: relative;
   font-size: 3rem;
 	position: absolute;
 	transform: translate(-2%, -100%);
- 
 }
 
 #hero h1:nth-child(1) {
@@ -190,12 +197,12 @@ position: relative;
  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  
 }
-#projects h1{
+
   
-}
 #projects img{
   height: 100% !important;
 }
+
 .card-block {
   font-size: 1em;
   position: relative;
@@ -206,6 +213,7 @@ position: relative;
   box-shadow: none;
    
 }
+
 .card {
   font-size: 1em;
   overflow: hidden;
@@ -215,10 +223,12 @@ position: relative;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
   margin-top:20px;
 }
+
 .card img{
   height: 100% !important;
   width: 100% !important;
 }
+
 .btn {
   background-color: #1844A1 !important;
   border: none !important;
@@ -233,31 +243,30 @@ a,
 a:hover {
   text-decoration: none;
 }
+
 #testimonials{
   background-color: #F5F5F5;
 }
-.testimonials .slide img{
 
+.testimonials .slide img{
   width: 50px;
   margin-right: 20px;
    
 }
+
 .testimonials .card1 {
   background-color: #ffffff;
   border-radius: 10px;
   height: 380px;
   width: 100%;
-  /* position:relative;
-  top: -30%;
- right: 20px; */
-
 }
+
 .bi-quote{ 
   font-size: 70px;
   text-align: start !important;
   color: #C1D2E7;
-
 }
+
 .card .mobilevieshow {
   display: block;
 }
@@ -276,6 +285,7 @@ a:hover {
   align-items: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .connect-container a {
   background-color: #1844A1; 
   color: white; 
@@ -309,18 +319,15 @@ a:hover {
   width: 100px;
   
 }
+
 .bi-check-circle{
   color: #1844A1 !important;
   font-size: 20px !important;
 }
+
 .footer p{
   color: #ffffff !important;
 }
-
-
-
-
-
 
 /********** RESPONSIVENESS **********/
 
@@ -330,6 +337,7 @@ a:hover {
 .navbar {
     height: 15vh; 
 }
+
 #home img{
   transform: none;
 }
@@ -369,4 +377,3 @@ a:hover {
 @media only screen and (orientation: portrait) and (min-device-pixel-ratio: 1) and (min-device-width: 768px) and (max-device-width: 1007px) {
   /* STYLES GO HERE */
 }
-
