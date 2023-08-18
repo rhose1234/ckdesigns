@@ -16,7 +16,7 @@ function handleScroll() {
 
   if (scroll > 300) {
     navbar.style.boxShadow = "rgba(0, 0, 0, 0.24) 0px 3px 8px";
-    navbar.style.backgroundColor = "#1844A1";
+    navbar.style.backgroundColor = "#184984";
   } else {
     navbar.style.boxShadow = "none";
     navbar.style.backgroundColor = "initial";
