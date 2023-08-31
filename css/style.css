@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("../css/bootstrap.min.css");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
 *,
 *::before,
 *::after {
@@ -17,7 +17,7 @@
   }
 }
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   overflow-x: none !important;
   overflow-y: none !important;
   padding:0 !important;
@@ -26,16 +26,15 @@ body {
 }
 
 p{
-  font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  line-height: 35px !important;
+  line-height: 30px !important;
   color: #000000 !important; 
 }
 
 span{
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  font-weight: 600;
+
 }
 
 .navbar-brand img{
@@ -198,10 +197,10 @@ position: relative;
 }
 
 #services .boxes {
-  background: #184984;
-  color: #ffffff !important;
+  color: #000000 !important;
   border-radius: 15px !important;
   padding: 20px !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 
 }
 #services img{
@@ -212,7 +211,51 @@ position: relative;
 #projects img{
   height: 100% !important;
 }
+div.colors .red{
+  /* height: 100px !important;
+  width:250px !important; */
+  background-color: #852120 !important;
+  color: #fff;
+  font-weight: 700 !important;
+  text-align:center;
+  padding: 40px !important;
+}
 
+div.colors .grey{
+  /* height: 100px !important;
+  width:250px !important; */
+  background-color: #303234 !important;
+  color: #fff;
+  font-weight: 700 !important;
+  text-align:center;
+  padding: 40px !important;
+}
+
+div.colors .peach{
+  /* height: 100px !important;
+  width:250px !important; */
+  background-color: #F4E9E8 !important;
+  color: #fff;
+  font-weight: 700 !important;
+  text-align:center;
+  padding: 40px !important;
+}
+#thoughts img{
+  width: 100% !important;
+  height: 35vh !important;
+  border-radius: 5px !important;
+  
+}
+#thoughts .articles{
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  background-color: #F5F5F5 ;
+  padding: 30px !important;
+  margin-top: 40px ;
+}
+.bi-arrow-right{
+  color: #184984 !important ;
+  font-size: 30px !important;
+}
 .card-block {
   font-size: 1em;
   position: relative;
