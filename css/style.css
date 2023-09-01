@@ -27,7 +27,7 @@ body {
 
 p{
   font-size: 18px;
-  line-height: 30px !important;
+  line-height: 25px !important;
   color: #000000 !important; 
 }
 
@@ -54,7 +54,12 @@ span{
 .offcanvas {
   background-color: #184984;
 }
-
+.navbar-toggler:focus {
+  text-decoration: none !important;
+  outline: none !important;
+  box-shadow: none !important; 
+  
+}
 .dropdown-menu {
   background-color: #184984 !important;
   border: none !important;
@@ -251,10 +256,15 @@ div.colors .peach{
   background-color: #F5F5F5 ;
   padding: 30px !important;
   margin-top: 40px ;
+  border-radius: 15px !important;
 }
 .bi-arrow-right{
   color: #184984 !important ;
-  font-size: 30px !important;
+  width: 100% !important;
+  
+}
+#thoughts a{
+  color: #184984 !important;
 }
 .card-block {
   font-size: 1em;
@@ -388,7 +398,7 @@ a:hover {
 @media(min-width: 320px) and (max-width: 480px) {
   /* STYLES GO HERE */
 .navbar {
-    height: 15vh; 
+    height: 13vh; 
 }
 
 #home img{
