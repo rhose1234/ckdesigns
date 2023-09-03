@@ -125,7 +125,7 @@ span .navbar-toggler-icon {
 }
 
 #hero{
-  padding: 20px;
+  padding: 0px;
   
 }
 
@@ -411,7 +411,7 @@ a:hover {
 
   
   .navbar {
-    height: 15vh;
+    height: 14vh;
     
   }
   .carousel-first img{
