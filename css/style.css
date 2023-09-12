@@ -21,10 +21,9 @@ body {
   padding:0 !important;
   margin: 0 !important;
   box-sizing: border-box !important;
+  overflow-x: hidden;
 }
-section, nav{
-  width: 100vw !important;
-}
+
 
 p{
   font-size: 18px;
