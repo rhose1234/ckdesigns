@@ -46,6 +46,8 @@ span{
 .navbar {
   color: #ffffff !important;
 
+  background-color: rgba(24, 73, 132, 0.5) !important;  /* Semi-transparent blue */
+
   
 }
 
@@ -410,10 +412,7 @@ a:hover {
 @media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
 
   
-  .navbar {
-    height: 14vh;
-    
-  }
+  
   .carousel-first img{
  width:100vw !important ;
  height: 75vh !important;

@@ -14,11 +14,11 @@ function debounce(callback, delay) {
 function handleScroll() {
   var scroll = window.scrollY || window.pageYOffset;
 
-  if (scroll > 300) {
+  if (scroll > 200) {
     navbar.style.boxShadow = "rgba(0, 0, 0, 0.24) 0px 3px 8px";
     navbar.style.backgroundColor = "#184984";
   } else {
-    navbar.style.boxShadow = "none";
+    navbar.style.boxShadow = "red";
     navbar.style.backgroundColor = "initial";
   }
 }
