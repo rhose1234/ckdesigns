@@ -35,14 +35,15 @@ span{
   font-size: 18px;
 
 }
-/* section{
-  padding: 20px !important;
-} */
+.navbar{
+  background-color: #184984 !important;
+  color: #ffffff!important;
 
+}
 
   .offcanvas{
     background-color: #184984 !important;
-    color: #000000 !important;
+   
   }
   .navbar-brand{
       color: #ffffff!important;
